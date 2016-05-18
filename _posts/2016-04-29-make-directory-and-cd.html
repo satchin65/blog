@@ -1,0 +1,29 @@
+---
+layout: post
+title: Make directory & cd into (efficient method)
+date: 2016-04-29 19:41:19.000000000 +05:45
+type: post
+published: true
+status: publish
+categories: []
+tags: []
+meta:
+  _edit_last: '1'
+  _yoast_wpseo_primary_category: ''
+  _wp_old_slug: make-directory-and-cd-shell
+  _wpcom_is_markdown: '1'
+  _pingme: '1'
+  _encloseme: '1'
+author:
+  login: joshi
+  email: satchin.joshi@gmail.com
+  display_name: joshi
+  first_name: ''
+  last_name: ''
+---
+<p>One the most common task you might do is something like:-</p>
+<pre><code>$ mkdir some/directory &amp;&amp; cd some/directory
+</code></pre>
+<p>There is a clear problem of typing new directory name twice and sometime there can be some typo and we all have typing. So the most efficient way for doing this is:-</p>
+<pre><code>$ mkdir some/directory &amp;&amp; cd $_
+</code></pre>
