@@ -14,7 +14,7 @@ url: "https://sachinjoshi.com.np" # the base hostname & protocol for your site
 twitter_username: satchin65
 github_username: satchinjoshi
 
-permalink: /:title
+permalink: /:title/
 
 # Build settings
 markdown: kramdown
