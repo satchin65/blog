@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    jekyll-sitemap (0.10.0)
+    kramdown (1.11.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  jekyll-sitemap
+  kramdown
+
+BUNDLED WITH
+   1.12.3
