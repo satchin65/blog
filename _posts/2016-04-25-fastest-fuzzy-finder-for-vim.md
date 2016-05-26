@@ -23,8 +23,8 @@ When I started to use Vim I needed a fast way to go between files by hitting Ct
 
 After some search for its alternative I came across  [Command-T](https://github.com/wincent/command-t) and it was built for speed (much faster than CtrlP). And the search result was much accurate. I was happy with it for a long time but I had one problem with it as it would not work with  [neovim](https://neovim.io/). But I really wanted to switch to neovim and using CtrlP was out of question for me.
 
-![Command-T](/assets/command-t.gif)
+![Command-T](https://raw.githubusercontent.com/wincent/command-t/media/command-t.gif)
 
 Then I found [fzf](https://github.com/junegunn/fzf) which would work in [neovim](https://neovim.io/). It was amazingly faster than [Command-T](https://github.com/wincent/command-t) as well. I heard of this quiet a while ago but did not tried it. This was really a holy experience for me haha, it blew away all fuzzy finder. In Github  page it says "*fzf is a general-purpose command-line fuzzy finder.*" so it can be used from command-line as well. Actually this plugin is rewritten in [Golang](https://golang.org/) which might be the reason of its speed.
 
-![fzf](/assets/68747470733a2f2f7261772e6769746875622e636f6d2f6a756e6567756e6e2f692f6d61737465722f667a662e676966)
+![fzf](https://camo.githubusercontent.com/0b07def9e05309281212369b118fcf9b9fc7948e/68747470733a2f2f7261772e6769746875622e636f6d2f6a756e6567756e6e2f692f6d61737465722f667a662e676966)
