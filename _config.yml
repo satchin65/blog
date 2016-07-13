@@ -4,7 +4,7 @@ email:      satchin.joshi@gmail.com
 author:     Sachin Joshi         
 description: ""
 baseurl:     ""
-url:         "https://sachinjoshi.com.np"
+url:         "http://sachinjoshi.com.np"
 date_format: "%b %-d, %Y"
 
 permalink: /:title/
