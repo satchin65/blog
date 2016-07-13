@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sachin&#39;s Blog</title>
+    <description></description>
+    <link>https://sachinjoshi.com.np/</link>
+    <atom:link href="https://sachinjoshi.com.np/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Delete all branch except master</title>
+        <description>&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ git branch | grep -v &quot;master&quot; | xargs git branch -D 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Instead of master if you can also delete other branch by replacing with any branch name&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ git branch | grep -v &quot;&amp;lt;branch-name&amp;gt;&quot; | xargs git branch -D 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+</description>
+        <pubDate>Thu, 19 May 2016 10:41:19 +0545</pubDate>
+        <link>https://sachinjoshi.com.np/2016/05/19/delete-all-branch-except-master/</link>
+        <guid isPermaLink="true">https://sachinjoshi.com.np/2016/05/19/delete-all-branch-except-master/</guid>
+      </item>
+    
+      <item>
+        <title>Make directory &amp; cd into (efficient method)</title>
+        <description>&lt;p&gt;One the most common task you might do is something like:-&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ mkdir some/directory &amp;amp;&amp;amp; cd some/directory
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;There is a clear problem of typing new directory name twice and sometime there can be some typo and we all have typing. So the most efficient way for doing this is:-&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ mkdir some/directory &amp;amp;&amp;amp; cd $_
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Fri, 29 Apr 2016 19:41:19 +0545</pubDate>
+        <link>https://sachinjoshi.com.np/2016/04/29/make-directory-and-cd/</link>
+        <guid isPermaLink="true">https://sachinjoshi.com.np/2016/04/29/make-directory-and-cd/</guid>
+      </item>
+    
+      <item>
+        <title>Fastest Fuzzy Finder for Vim / Neovim</title>
+        <description>&lt;p&gt;When I started to use Vim I needed a fast way to go between files by hitting Ctrl+P and typing the file name just like in Sublime Text, Text Mate or any other text editor. Then I found &lt;a href=&quot;https://github.com/ctrlpvim/ctrlp.vim&quot;&gt;ctrlp&lt;/a&gt; plugin for vim which was ok. The main problem I had with ctrlp was speed. At my full time job I am working with a code base that contains 20,000+ files and it was very frustrating every-time I had to go to a file.  Even the caching did not help much. And some of the time the search result it returned was not matching the file (most probably due to very similar file naming).&lt;/p&gt;
+
+&lt;p&gt;After some search for its alternative I came across  &lt;a href=&quot;https://github.com/wincent/command-t&quot;&gt;Command-T&lt;/a&gt; and it was built for speed (much faster than CtrlP). And the search result was much accurate. I was happy with it for a long time but I had one problem with it as it would not work with  &lt;a href=&quot;https://neovim.io/&quot;&gt;neovim&lt;/a&gt;. But I really wanted to switch to neovim and using CtrlP was out of question for me.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/wincent/command-t/media/command-t.gif&quot; alt=&quot;Command-T&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then I found &lt;a href=&quot;https://github.com/junegunn/fzf&quot;&gt;fzf&lt;/a&gt; which would work in &lt;a href=&quot;https://neovim.io/&quot;&gt;neovim&lt;/a&gt;. It was amazingly faster than &lt;a href=&quot;https://github.com/wincent/command-t&quot;&gt;Command-T&lt;/a&gt; as well. I heard of this quiet a while ago but did not tried it. This was really a holy experience for me haha, it blew away all fuzzy finder. In Github  page it says “&lt;em&gt;fzf is a general-purpose command-line fuzzy finder.&lt;/em&gt;” so it can be used from command-line as well. Actually this plugin is rewritten in &lt;a href=&quot;https://golang.org/&quot;&gt;Golang&lt;/a&gt; which might be the reason of its speed.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://camo.githubusercontent.com/0b07def9e05309281212369b118fcf9b9fc7948e/68747470733a2f2f7261772e6769746875622e636f6d2f6a756e6567756e6e2f692f6d61737465722f667a662e676966&quot; alt=&quot;fzf&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 25 Apr 2016 22:37:42 +0545</pubDate>
+        <link>https://sachinjoshi.com.np/2016/04/25/fastest-fuzzy-finder-for-vim/</link>
+        <guid isPermaLink="true">https://sachinjoshi.com.np/2016/04/25/fastest-fuzzy-finder-for-vim/</guid>
+      </item>
+    
+  </channel>
+</rss>
